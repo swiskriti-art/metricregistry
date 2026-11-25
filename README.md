@@ -2,8 +2,6 @@
 
 Executable, versioned KPI definitions with a divergence monitor that flags when metrics claiming to measure the same thing disagree.
 
-[![ci](https://github.com/SlateGitOrg/metricregistry/actions/workflows/ci.yml/badge.svg)](https://github.com/SlateGitOrg/metricregistry/actions/workflows/ci.yml)
-
 ## Why
 
 Finance, the registrar and marketing each report a different number of enrolled
@@ -48,7 +46,7 @@ metric. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 Requires Python 3.11+. There are no dependencies; everything uses the standard library.
 
 ```bash
-git clone https://github.com/SlateGitOrg/metricregistry.git
+git clone https://github.com/swiskriti-art/metricregistry.git
 cd metricregistry
 python -m unittest discover -s tests -v   # run the tests
 python -m src.demo                        # run the walkthrough
@@ -125,10 +123,3 @@ docs/               architecture notes
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-Dev Bhatt maintains this project, focusing on practical analytics, automated controls, and reliable metric definitions. He has 6+ years of professional experience building data pipelines, reconciliations, and dashboards.
-
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
